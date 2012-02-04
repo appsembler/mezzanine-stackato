@@ -5,6 +5,10 @@ mem: 64M
 env:
   DJANGO_SETTINGS_MODULE: settings
 
+services:
+    # TODO: make this conditional, so there's also support for PostgreSQL, Redis, Mongo, etc.
+    mysql: mysql-mezzanine
+
 ignores: 
   - '*.pyc'
   - 'mezzanine.db'
