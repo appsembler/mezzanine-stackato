@@ -1,1 +1,5 @@
 -r blog/requirements/project.txt
+# Needed to add this
+MySQL-python
+django-stackato
+
